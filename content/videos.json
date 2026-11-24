@@ -1,0 +1,25 @@
+{
+  "kicker": "Watch",
+  "title": "Videos from Roxy",
+  "sub": "Short ads that explain the welcome, the referral promo, and a festive hello from the agency.",
+  "items": [
+    {
+      "title": "Everybody is welcome",
+      "caption": "Why join Roxy BC on BIGO Live — guidance, community, and a fair start.",
+      "src": "assets/video/bigo_ad.mp4",
+      "poster": "assets/img/bigo_ad-poster.jpg"
+    },
+    {
+      "title": "Invite a new host",
+      "caption": "Recommend someone and you can earn their first-month agency commission.",
+      "src": "assets/video/referral_ad.mp4",
+      "poster": "assets/img/referral_ad-poster.jpg"
+    },
+    {
+      "title": "Merry Christmas from Roxy BC",
+      "caption": "Come back to us, register through our link, and spend the season wisely.",
+      "src": "assets/video/christmas_ad.mp4",
+      "poster": "assets/img/christmas_ad-poster.jpg"
+    }
+  ]
+}

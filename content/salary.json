@@ -1,0 +1,51 @@
+{
+  "title": "Host salary ladder",
+  "intro": "These are official-style BIGO Africa host salary examples used by Roxy BC. **Pay depends on hitting both the bean target and the live-hour target.** Higher S ranks continue up to S28. Figures can be updated by BIGO; ask us if a row looks different in the app.",
+  "rows": [
+    {
+      "rank": "E",
+      "beans": "15,000",
+      "hours": "25h",
+      "salary": "$88"
+    },
+    {
+      "rank": "D",
+      "beans": "25,000",
+      "hours": "30h",
+      "salary": "$120"
+    },
+    {
+      "rank": "C",
+      "beans": "32,000",
+      "hours": "—",
+      "salary": "$180"
+    },
+    {
+      "rank": "B",
+      "beans": "50,000",
+      "hours": "—",
+      "salary": "$280"
+    },
+    {
+      "rank": "A",
+      "beans": "70,000",
+      "hours": "—",
+      "salary": "$380"
+    },
+    {
+      "rank": "S1",
+      "beans": "100,000",
+      "hours": "—",
+      "salary": "$540"
+    },
+    {
+      "rank": "S28",
+      "beans": "3,000,000",
+      "hours": "45h",
+      "salary": "$12,800"
+    }
+  ],
+  "note": "Ranks between S1 and S28 exist; we did not invent the in-between numbers here. Hours marked “—” should be confirmed in the current official table inside the agency group.",
+  "payoutTitle": "Real payouts, October 2026.",
+  "payoutText": "Hosts in Roxy BC who hit their targets that month were paid from **$32** up to **$620** (including F-rank and S2 results). This is a snapshot, not a promise of what you will earn. Your pay depends on your own beans, live hours, and BIGO’s process."
+}

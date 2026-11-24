@@ -1,0 +1,31 @@
+{
+  "kicker": "Vibes",
+  "title": "Events, PK and posters",
+  "sub": "We keep the room exciting — PK battles, seasonal parties, and go-live nights. Exact dates live in the WhatsApp group.",
+  "items": [
+    {
+      "title": "Got talent? Got time?",
+      "date": "",
+      "image": "assets/img/talent.jpg",
+      "imageAlt": "Animated hosts pointing at the camera: Got talent? Got time? We dey find you.",
+      "text": "If you can talk, sing, dance, cook, pray or just keep people company, there is a place for you at Roxy.",
+      "published": true
+    },
+    {
+      "title": "Bring your people",
+      "date": "",
+      "image": "assets/img/referral_poster.jpg",
+      "imageAlt": "Roxy BC host referral promo poster with WhatsApp number.",
+      "text": "Invite friends and family. Millions of people are on the app; we guide you for your own growth and visibility.",
+      "published": true
+    },
+    {
+      "title": "Seasonal events",
+      "date": "",
+      "image": "assets/img/christmas_poster.jpg",
+      "imageAlt": "Merry Christmas from Roxy BC poster.",
+      "text": "Christmas and other seasons are a chance for fun events and gifts from friends around the world — an opportunity, not a guarantee.",
+      "published": true
+    }
+  ]
+}

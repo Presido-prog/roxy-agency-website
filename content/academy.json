@@ -1,0 +1,108 @@
+{
+  "kicker": "Roxy Academy",
+  "title": "What we teach about being a streamer",
+  "sub": "Tap any card. This is the support we give inside the agency — setup, going live, targets, gifts, withdrawals, and staying safe.",
+  "cards": [
+    {
+      "icon": "💡",
+      "title": "Setup: light, sound, phone",
+      "open": false,
+      "text": "",
+      "bullets": [
+        "Face a window or a simple ring light. Darkness makes it hard for people to stay.",
+        "Use earphones with a mic, or a cheap clip mic. Fan and street noise push viewers away.",
+        "Charge your phone, keep data ready, and go live in a tidy, well-lit corner. You do not need a studio."
+      ]
+    },
+    {
+      "icon": "📡",
+      "title": "Going live — first tips",
+      "open": false,
+      "text": "",
+      "bullets": [
+        "Smile, greet people by name, and talk even if the room is quiet at first.",
+        "Have a simple plan: chat, sing, cook, dance, pray, teach, or just keep company — be yourself.",
+        "Ask viewers to follow, share, and send a small gift if they enjoy the stream. Never beg in a harsh way."
+      ]
+    },
+    {
+      "icon": "📅",
+      "title": "Consistency wins",
+      "open": false,
+      "text": "Showing up is how accounts grow. Pick a time you can keep, go live often, and tell your WhatsApp contacts. Growth is gradual — we help you stay visible with events and guidance, not magic overnight fame.",
+      "bullets": []
+    },
+    {
+      "icon": "🎯",
+      "title": "Live hours and bean targets",
+      "open": true,
+      "text": "Your official host salary depends on BIGO Africa rules. Please remember:",
+      "bullets": [
+        "At most **3 live hours a day** count toward the monthly target.",
+        "A stream needs to be at least **30 minutes** to count.",
+        "Full salary needs **both** the bean target and the live-hour target. If you hit only the bean target, it is typically **50%** of that rank’s salary.",
+        "Payday is the **5th** of the month. Pay is sent as **beans in your wallet**.",
+        "BIGO processes salaries; complete your KYC with the exact name on your official documents so payment is not delayed."
+      ]
+    },
+    {
+      "icon": "⚔️",
+      "title": "PK battles",
+      "open": false,
+      "text": "PK is a live battle between two rooms. It’s exciting and can bring new viewers if you stay kind and energetic. Practice with agency mates first, keep it fun, and never insult the other host. Watch the Events section and the WhatsApp group for PK nights.",
+      "bullets": []
+    },
+    {
+      "icon": "🎉",
+      "title": "Agency events",
+      "open": false,
+      "text": "We run fun events, parties and seasonal challenges (including festive periods like Christmas). Events are a chance to meet gifters and friends around the world and to spend your time wisely on the app. Times and themes are posted in the WhatsApp group.",
+      "bullets": []
+    },
+    {
+      "icon": "🎁",
+      "title": "Gifts and gifters",
+      "open": false,
+      "text": "Viewers can send gifts during your live. That is an **opportunity**, not a promise. Be grateful, build real relationships, and never guarantee anyone a return for sending gifts. If a gifter has an issue, ask in the agency group before you panic or pay anyone outside the app.",
+      "bullets": []
+    },
+    {
+      "icon": "⚡",
+      "title": "Points & Live Boost",
+      "open": false,
+      "text": "Points and Live Boost can help more people find your room. We explain the current options in the group because they can change. Use official in-app tools only — nobody from “support” should ask you to buy boosts off the app.",
+      "bullets": []
+    },
+    {
+      "icon": "🏦",
+      "title": "Withdrawals and USD to Naira",
+      "open": false,
+      "text": "Salary beans arrive in your BIGO wallet. Withdrawal and exchange (including USD to Naira) should follow official BIGO steps. If you get stuck, drop the question in the agency WhatsApp group. We help — we will not ask you to send your password, PIN, or beans to a “helper” first.",
+      "bullets": []
+    },
+    {
+      "icon": "🛡️",
+      "title": "Avoid traps and scams",
+      "open": false,
+      "text": "",
+      "bullets": [
+        "Register only through our link or by searching **presido**.",
+        "Do not fall for people who promise instant riches, “upgrades,” or payments outside the app.",
+        "Always ask to be added to the official Roxy WhatsApp group and check with us before you pay anyone.",
+        "We will never ask you for your BIGO password."
+      ]
+    },
+    {
+      "icon": "📜",
+      "title": "Rules you must follow",
+      "open": false,
+      "text": "",
+      "bullets": [
+        "**18+ only.** Minors cannot be contracted. No children on stream.",
+        "No nudity or sexual content. No suggestive shows with minors of any kind.",
+        "No gambling, no weapons, no smoking on stream.",
+        "Stay respectful. The agency can refuse or remove hosts who break these rules or BIGO’s own policies."
+      ]
+    }
+  ]
+}

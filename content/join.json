@@ -1,0 +1,52 @@
+{
+  "downloadKicker": "Get the app",
+  "downloadTitle": "Download official BIGO Live",
+  "downloadSub": "Use only the official stores or website. After you install, come back here and apply to Roxy so you land in our agency — not a random one.",
+  "stores": [
+    {
+      "name": "Google Play",
+      "note": "Android · official BIGO LIVE",
+      "url": "https://play.google.com/store/apps/details?id=sg.bigo.live",
+      "icon": "▶"
+    },
+    {
+      "name": "App Store",
+      "note": "iPhone & iPad · official listing",
+      "url": "https://apps.apple.com/us/app/bigo-live-live-stream-go-live/id1077137248",
+      "icon": "A"
+    },
+    {
+      "name": "bigo.tv",
+      "note": "Official website & more download options",
+      "url": "https://www.bigo.tv",
+      "icon": "◎"
+    }
+  ],
+  "kicker": "Start here",
+  "title": "How to join Roxy",
+  "sub": "Two easy ways. Pick one, then message us so we can add you to the agency WhatsApp group.",
+  "steps": [
+    {
+      "title": "Install BIGO Live",
+      "text": "Download the official app from Google Play, the App Store, or bigo.tv."
+    },
+    {
+      "title": "Open the app and search **presido**",
+      "text": "In the search bar, type **presido**. Apply to be an official signed streamer with our agency."
+    },
+    {
+      "divider": "OR USE OUR INVITE LINK"
+    },
+    {
+      "title": "Tap our invitation and Accept",
+      "text": "Open [our official invite link]({invite}) and tap **Accept**. The agency is independent from BIGO LIVE itself, and minors cannot be contracted."
+    },
+    {
+      "title": "Ask to join our WhatsApp group",
+      "text": "Chat us on WhatsApp and request the Roxy BC hosts group. That is where you drop questions and difficulties. We go guide you."
+    }
+  ],
+  "warning": "**Important:** There are other agencies on the app. Always come back to us and register *only* through the link we send you, or by searching **presido**, so you land in Roxy — not somewhere else.",
+  "inviteButton": "Open invite link",
+  "whatsappButton": "Message WhatsApp"
+}

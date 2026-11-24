@@ -1,0 +1,34 @@
+{
+  "kicker": "Invite & earn",
+  "title": "Recommend a new host — you can get their first-month commission",
+  "sub": "Know someone with a phone who likes to talk, sing, pray, cook or dance? Refer them to Roxy. When that new host hits their first-month bean and live-hour target, you can receive that host’s first-month *agency commission* (this is separate from the host’s own salary).",
+  "tiers": [
+    {
+      "label": "When they hit 15,000 beans",
+      "amount": "$22"
+    },
+    {
+      "label": "25,000 beans",
+      "amount": "$35"
+    },
+    {
+      "label": "32,000 beans",
+      "amount": "$45"
+    },
+    {
+      "label": "50,000 beans",
+      "amount": "$70"
+    },
+    {
+      "label": "70,000 beans",
+      "amount": "$95"
+    },
+    {
+      "label": "100,000 beans",
+      "amount": "$135"
+    }
+  ],
+  "body": "Message the WhatsApp group with the accounts you invited. Paid when the new host reaches their bean and live-hour target, following the BIGO Africa structure. Everybody is welcome — refer as many as you can.",
+  "button": "Tell us about a new host",
+  "buttonMessage": "Hello Roxy, I want to refer a new host"
+}

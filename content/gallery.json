@@ -1,0 +1,27 @@
+{
+  "kicker": "Photos",
+  "title": "Pictures from the agency",
+  "sub": "Posters, go-live nights and moments you can share. Add more photos anytime.",
+  "photos": [
+    {
+      "image": "assets/img/welcome.jpg",
+      "alt": "Welcome to Roxy Agency poster.",
+      "caption": "Welcome to Roxy"
+    },
+    {
+      "image": "assets/img/talent.jpg",
+      "alt": "Got talent? Got time? We dey find you.",
+      "caption": "Got talent? Got time?"
+    },
+    {
+      "image": "assets/img/referral_poster.jpg",
+      "alt": "Roxy BC host referral promo poster.",
+      "caption": "Invite & earn"
+    },
+    {
+      "image": "assets/img/christmas_poster.jpg",
+      "alt": "Merry Christmas from Roxy BC.",
+      "caption": "Seasonal vibes"
+    }
+  ]
+}
