@@ -3,6 +3,7 @@
     settings: "content/settings.json",
     hero: "content/hero.json",
     join: "content/join.json",
+    telegram: "content/telegram.json",
     academy: "content/academy.json",
     salary: "content/salary.json",
     referral: "content/referral.json",
@@ -264,6 +265,46 @@
           '"></div>'
         : "");
     show("top");
+  }
+
+  function tgUrl(s) {
+    return safeUrl(s.telegramUrl) || "https://t.me/roxybchosts";
+  }
+
+  function tgLabel(s) {
+    return s.telegramLabel || tgUrl(s).replace(/^https?:\/\//i, "");
+  }
+
+  function renderTelegram(t, s) {
+    t = t || {};
+    var url = safeUrl(t.url) || tgUrl(s);
+    var src = assetUrl(t.video);
+    var poster = assetUrl(t.poster);
+    document.getElementById("telegram").innerHTML =
+      '<div class="wrap tg-grid">' +
+      (src
+        ? '<figure class="tg-video"><video controls playsinline preload="metadata"' +
+          (poster ? ' poster="' + esc(poster) + '"' : "") +
+          ' src="' + esc(src) + '" title="' + esc(t.videoTitle || t.title || "") + '"></video></figure>'
+        : "") +
+      '<div class="tg-copy">' +
+      '<p class="sec-kicker">' +
+      esc(t.kicker || "Join our Telegram community") +
+      "</p>" +
+      '<h2 class="sec-h">' +
+      esc(t.title || "Streamers Academy on Telegram") +
+      "</h2>" +
+      (t.sub ? '<p class="sec-sub">' + fmt(t.sub) + "</p>" : "") +
+      '<a class="btn btn-tg btn-big" href="' +
+      esc(url) +
+      '" target="_blank" rel="noopener">' +
+      '<svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.6 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.2-8.3c.4-.4-.1-.6-.6-.2L6 13.6 1.1 12c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.3 1.7.2 1.4 1.3z"/></svg>' +
+      esc(t.button || "Join Streamers Academy on Telegram") +
+      "</a>" +
+      '<p class="tg-link"><a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(url.replace(/^https?:\/\//i, "")) + "</a></p>" +
+      (t.note ? '<p class="fine">' + fmt(t.note) + "</p>" : "") +
+      "</div></div>";
+    show("telegram");
   }
 
   function renderJoin(j, s) {
@@ -705,6 +746,11 @@
           esc(s.email) +
           "</a></li>"
         : "") +
+      '<li>Telegram: <a href="' +
+      esc(tgUrl(s)) +
+      '" target="_blank" rel="noopener">' +
+      esc(tgLabel(s)) +
+      "</a></li>" +
       "</ul>" +
       '<div class="cta-row">' +
       '<a class="btn btn-wa" href="' +
@@ -743,6 +789,7 @@
           .replace("{whatsapp}", "[" + vars.whatsapp + "](" + waLink(s) + ")")
           .replace("{email}", "[" + vars.email + "](mailto:" + vars.email + ")")
           .replace("{search}", vars.search)
+          .replace("{telegram}", "[" + tgLabel(s) + "](" + tgUrl(s) + ")")
       : "";
     document.getElementById("siteFooter").innerHTML =
       '<div class="wrap">' +
@@ -783,6 +830,7 @@
       var s = data.settings || {};
       applySettings(s);
       renderHero(data.hero || {}, s);
+      renderTelegram(data.telegram || {}, s);
       renderJoin(data.join || {}, s);
       renderAcademy(data.academy || {}, data.salary || {});
       renderReferral(data.referral || {}, s);

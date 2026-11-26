@@ -88,6 +88,14 @@ content:
           - name: inviteUrl
             label: BIGO invite link
             type: string
+          - name: telegramUrl
+            label: Telegram group link
+            type: string
+            description: "Example https://t.me/roxybchosts"
+          - name: telegramLabel
+            label: Telegram link as you want it shown
+            type: string
+            description: "Example t.me/roxybchosts"
           - name: searchTerm
             label: What people should search in BIGO
             type: string
@@ -114,7 +122,7 @@ content:
           - name: footerExtra
             label: Footer contact line
             type: text
-            description: "You can use {whatsapp}, {email} and {search}. Use **bold** for emphasis."
+            description: "You can use {whatsapp}, {telegram}, {email} and {search}. Use **bold** for emphasis."
 
       - name: hero
         label: Homepage headline
@@ -169,6 +177,47 @@ content:
     label: Join & Academy
     type: group
     items:
+      - name: telegram
+        label: Telegram community
+        type: file
+        path: content/telegram.json
+        format: json
+        fields:
+          - name: kicker
+            label: Small label above the title
+            type: string
+          - name: title
+            label: Title
+            type: string
+          - name: sub
+            label: Short text
+            type: text
+          - name: button
+            label: Button text
+            type: string
+          - name: url
+            label: Telegram link for this button (leave blank to use the one in Site name & contact)
+            type: string
+          - name: video
+            label: Video file
+            type: file
+            options:
+              media: videos
+              categories: [video]
+              extensions: [mp4, webm]
+            description: Keep the video under 8 MB so the site stays fast on cheap phones.
+          - name: poster
+            label: Video preview image
+            type: image
+            options:
+              media: images
+          - name: videoTitle
+            label: Video title (for accessibility)
+            type: string
+          - name: note
+            label: Small print under the button
+            type: string
+            description: Please keep the 18+ line.
       - name: join
         label: How to join
         type: file

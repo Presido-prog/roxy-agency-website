@@ -13,6 +13,8 @@
   "whatsappInternational": "+234 706 504 6266",
   "whatsappNumber": "07065046266",
   "email": "bigosalary@gmail.com",
+  "telegramUrl": "https://t.me/roxybchosts",
+  "telegramLabel": "t.me/roxybchosts",
   "inviteUrl": "https://slink.bigovideo.tv/QiYJh0?new_source=5",
   "searchTerm": "presido",
   "qrImage": "assets/img/whatsapp-qr.png",
@@ -20,5 +22,5 @@
   "shareTitle": "Roxy Agency — Join us on BIGO Live",
   "shareText": "Everybody is welcome. Go live, grow, get paid. Join Roxy BC (Roxy Agency) on BIGO Live. WhatsApp +234 706 504 6266",
   "legal": "18+ only. Roxy Agency is an independent agency working with BIGO LIVE; earnings depend on meeting BIGO targets. We are an official BIGO agency partner — we are not BIGO LIVE itself, and we do not use the official BIGO logo as our brand.",
-  "footerExtra": "WhatsApp {whatsapp} · {email} · Search **{search}** in the app or use our invite link."
+  "footerExtra": "WhatsApp {whatsapp} · Telegram {telegram} · {email} · Search **{search}** in the app or use our invite link."
 }

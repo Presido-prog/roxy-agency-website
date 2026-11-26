@@ -152,6 +152,19 @@ footer .logo{margin-bottom:12px}
   .e-card img{height:280px}
 }
 
+/* Telegram community */
+.tg-sec{background:linear-gradient(180deg,#eaf5fd,var(--cream))}
+.tg-grid{display:grid;gap:26px;align-items:center}
+.tg-video{margin:0;border-radius:20px;overflow:hidden;background:#000;box-shadow:var(--shadow);border:3px solid rgba(232,197,71,.55)}
+.tg-video video{display:block;width:100%;aspect-ratio:16/9;background:#000}
+.tg-sec .sec-kicker{color:#1c8ad0}
+.btn-tg{background:#2aabee;color:#fff;box-shadow:0 8px 22px rgba(42,171,238,.35)}
+.btn-tg:hover{background:#1c97d8}
+.btn-big{font-size:18px;padding:16px 28px}
+.tg-link{margin:12px 0 0;font-weight:700}
+.tg-link a{color:#1c8ad0}
+@media (min-width:800px){.tg-grid{grid-template-columns:1.25fr .75fr}}
+
 section.is-pending,section.is-empty{display:none}
 .loading-screen{min-height:calc(100svh - var(--header));display:grid;place-items:center;align-content:center;text-align:center;color:var(--navy);padding:48px 20px}
 .loading-screen .logo-mark{margin:0 auto 16px}
